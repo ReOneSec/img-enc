@@ -12,8 +12,8 @@
             "dest": "/api/$1"
         },
         {
-            "src": "/",          // Route for the root path
-            "dest": "/index.html" // Serve this file
+            "src": "/",         
+            "dest": "/index.html"
         }
     ]
 }
