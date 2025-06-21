@@ -1,0 +1,20 @@
+{
+  "name": "image-encryptor-backend",
+  "version": "1.0.0",
+  "description": "Serverless Node.js API for image encryption/decryption",
+  "main": "api/encrypt.js", // This doesn't strictly matter for Vercel serverless functions, but good practice
+  "scripts": {
+    "start": "vercel dev", // For local development with Vercel CLI
+    "deploy": "vercel --prod" // For production deployment
+  },
+  "keywords": ["vercel", "serverless", "nodejs", "encryption", "image"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.22.12", // Latest version at time of writing
+    "multer": "^1.4.5-lts.1" // Latest LTS version
+  },
+  "devDependencies": {
+    "vercel": "^34.2.0" // Vercel CLI for local testing and deployment
+  }
+}
